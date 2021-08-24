@@ -1,0 +1,266 @@
+.contents{
+    margin-top: 15px;
+    width: 980px;
+    height: auto;
+    min-height: 1050px;
+    margin:auto;
+    background-color: white;
+    border: 1px solid;
+}
+
+.left {
+    width: 25%;
+}
+.right {
+    width: 25%;
+}
+
+.info_new {
+    float: left;
+    width: 380px;
+    padding: 15px 0px 0px 5px;
+}
+
+.info_bottom {
+    font-family: Verdana, Arial, sans-serif;
+}
+/*------------------ Top ---------*/
+#profile_map{
+    width: 320px;
+    height: 270px;
+    border: 1px solid #c3c3c3;
+ 	
+	-moz-border-radius: 9px;
+	behavior: url( PIE.htc );   
+    float: left;
+    margin-top: 15px;
+}
+/*----------------- end top--------*/
+
+/*------------------- middle----------*/
+.img-class{
+    width: 210px;
+    height: 200px;
+    float: left;
+    padding: 10px 0px 10px 10px;
+}
+.info_right {
+    float: left;
+    width: 88px;
+    margin-top: 205px;
+    margin-left: 225px;
+ 
+}
+.font{
+    display: block;
+    font-size:14px;
+    font-family: Verdana, Arial, sans-serif;
+    color: black;
+}
+/*------------------End Middle---------------*/
+
+/*------------------- bottom--------------*/
+.bottom{
+    margin-top:64px;
+    margin-left: 67px;
+    font-size: large;
+}
+.slider{
+    width: 56%;
+    margin: auto;
+    border: 1px solid #c3c3c3;
+    border-radius: 9px;
+    -moz-box-shadow: 0 0 13px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 13px #888;
+
+}
+
+.font_left{
+    height: 30px;
+    display: block;
+    padding-bottom: 12px;
+    font-family: cursive;
+}
+/*----------------End Bottom-----------*/
+
+
+/*---------- Edit-------------*/
+.edit{ 
+}
+#button-edit{
+    border: none;
+    width: 32px;
+    height:32px;
+    background-color: transparent;
+}
+#edit_logo{
+    width: 32px;
+    height:32px;
+    position: absolute;
+    right: 11px;
+    top: 255px;
+}
+/*----------------- End Edit------------*/
+
+/*----------------- Rate ------------*/
+.classification {
+	position: relative;
+	width: 91px;
+	height: 17px;
+}
+.classification .cover {
+	position: absolute;
+	background: transparent url(Viewer/extra/stars.png) top left no-repeat;
+	width: 91px;
+	height: 17px;
+	z-index: 101;
+}
+.classification .progress {
+	position: absolute;
+	background: transparent url(Viewer/extra/stars_full.png) top left no-repeat;
+	height: 17px;
+	z-index: 102;
+}
+/*----------------- End rate------------*/
+
+.name{
+    color: #333;  font-size: 21px;  line-height: 110%;
+  
+
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.label{
+    font-size: 15px;
+    color:#8C8C8C ;
+    float: left;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.submit{
+    font-size: 16px;
+    background: #FF9913;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 7px;
+    behavior: url(PIE.htc);
+    margin-top: -2px;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.rate{
+    float: left;
+    width: 370px;
+    padding: 10px 0px 0px 0px;
+    height: 100px;
+}
+.font_rate{
+    font-size: 13px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+
+.all{
+   
+ 
+}
+.nameHR{
+    width: 365px;
+    height: 1px;
+    float: left;
+    margin-top: 5px;
+    background: #BDBDBD;
+
+ 
+}
+
+.rateHR{
+    width: 457px;
+height: 2px;
+margin-left: 203px;
+margin-top: 14px;
+background:#CECECE;
+
+}
+.info_{
+
+}
+.menuHeader{
+   width: 200px;
+   background: #FF9913;
+   height: 35px;
+   margin-top: 30px;
+   float: left;
+   margin-left: 330px;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	behavior: url( PIE.htc );
+    	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+     -moz-box-shadow: 0 0 13px #888;
+  
+   -webkit-box-shadow: 0 0 2px#888;
+
+}
+.menu-title {
+    color: #333;  font-size: 21px;  line-height: 110%;
+    font-family: arial;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.menuhr {
+width: 850px;
+background: #BDBDBD;
+height: 1px;
+margin-top: 30px;
+margin-left: 60px;
+}
+/*-----------Rate-style------------------*/
+.star-icon {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-bottom: 7px;
+    position: relative;
+}
+
+
+.stars-rate {
+    margin: 5px 5px 5px 7px;
+    float: left;
+    width: 270px;
+}
+
+.rate-number {
+    position: absolute;
+    top: 27px;
+    left: 33px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #535353;
+    font-family: tahoma;
+}
+/*-----------End-Rate-style------------------*/
+
+/*-----------Map-style------------------*/
+.adress-map {
+    padding: 15px 10px 10px 10px;
+    width: 320px;
+    float: left;
+}
+/*-----------End-Map-style------------------*/
+
+.menu-slider {
+    float: left;
+    margin: auto;
+}

@@ -1,0 +1,121 @@
+#content {
+     border-radius:3px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+    margin: auto;
+    background: white;
+    width: 980px;
+    min-height: 800px;
+    height: auto;
+    margin-top: 20px;
+}
+#category {
+    background:black;
+    border-radius: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #333;
+    width: 20%;
+    min-height: 805px;
+    color: white;
+    float: left;
+    height: auto;
+}
+#cate-name {
+    font-size: 22px;
+    margin-left: 45px;
+}
+#list {
+    margin-bottom: -14px;
+    width: 197px;
+    margin-top: 25px;
+}
+#addproducts {
+    width: 749px;
+    padding-top: 5px;
+    margin: auto;
+    height: auto;
+    min-height: 800px;
+    margin-left: 308px;
+}
+
+#wikiimagest{
+ border: 1px solid #c3c3c3;
+ -webkit-border-radius: 9px;
+ -moz-border-radius: 9px;
+	border-radius: 9px;
+    behavior: url( PIE.htc ); 
+     -moz-box-shadow: 0 0 13px #888;
+     -webkit-box-shadow: 0 0 5px#888;
+     box-shadow: 0 0 13px #888;
+     width: 228px;
+height: 191px;
+}
+#wikiimage {
+width: 595px;
+height: auto;
+margin-top: 67px;
+}
+#labprooa {
+position: absolute;
+margin-left: 71px;
+margin-top: 184px;
+font-family: arial;
+font-size: 20px;
+}
+#wikipos {
+padding-left: 36px;
+
+}
+#imagestwiki {
+margin-left: 146px;
+width: 228px;
+height: 191px;
+margin-top: 27px;
+}
+#labprot {
+margin-left: 220px;
+font-family: arial;
+font-size: 25px;
+margin-top: -226px;
+position: absolute;
+}
+#tdlab {
+font-family: arial;
+font-size: 25px;
+color: #FC3E2A;
+margin-left: 197px;
+position: absolute;
+margin-top: 42px;
+}
+#descript {
+margin-top: 60px;
+width: 570px;
+height: 481px;
+}
+#labpropD {
+margin-top: -1px;
+font-family: arial;
+font-size: 18px;
+width: 113px;
+height: 62px;
+}
+#labeldes {
+margin-top: 27px;
+margin-left: 22px;
+}
+
+textarea {
+width: 571px;
+height: 477px;
+border: 1px solid #c3c3c3;
+-webkit-border-radius: 9px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+behavior: url(PIE.htc );
+font-size: 20px;
+font-family: arial;
+-moz-box-shadow: 0 0 13px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 13px #888;
+}

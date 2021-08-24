@@ -1,0 +1,104 @@
+
+/* =FOOTER STYLES
+   ....................................... */
+div.footer-wrapper {
+	background: #2d1f12 url(http://cdn-floridaflourish.s3.amazonaws.com/footer-bg-tile.jpg) repeat-x 0 0;
+}
+div.footer {
+	width: 980px;
+	margin: 0 auto;
+	padding: 30px 0 30px 0;
+}
+div.links-wrapper {
+	background: #000000;
+	height: 80px;
+	font: 13px/1.5 'Segoe UI', Segoe, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin-top: 50px;
+}
+div.links {
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 10px;
+}
+div.footer div.news {
+	width: 335px;
+	margin: 20px 0 20px 0;
+	float:right;
+	background: url(http://cdn-floridaflourish.s3.amazonaws.com/news-bg-tile.jpg) repeat-y 8px 0;
+}
+div.footer div.news div.top {
+	padding: 0 10px;
+	background: url(http://cdn-floridaflourish.s3.amazonaws.com/news-bg-top.jpg) no-repeat 8px 0;
+}
+
+div.links ul.site li {
+display: block;
+float: left;
+margin: 0 10px 0 0;
+list-style-type: disc;
+}
+
+div.links ul.site {
+margin: 0;
+color: #AF7647;
+list-style-type: disc;
+cursor: default;
+}
+div.links p {
+margin-left: 38px;
+color: #AF7647;
+font-size: 93%;
+clear: both;
+}
+div.links ul.site li a {
+color: white;
+margin: 0 10px 0 0;
+}
+
+div.links ul.social li {
+display: block;
+float: left;
+}
+
+div.links ul.social {
+margin: 0;
+}
+.floatright {
+float: right;
+}
+.floatleft {
+float: left;
+}
+
+
+div.links ul.social li a {
+display: block;
+width: 30px;
+height: 30px;
+margin: 0 10px 0 0;
+text-indent: -10000px;
+}
+div.links ul.social li a.linkedin {
+    
+    background: transparent url(../images/social.png) no-repeat -2px -1px;
+}
+div.links ul.social li a.linkedin:hover {
+    
+    background: transparent url(../images/social.png) no-repeat -2px -31px;
+}
+div.links ul.social li a.twitter {
+    
+    background: transparent url(../images/social.png) no-repeat -32px -1px;
+}
+div.links ul.social li a.twitter:hover {
+    
+    background: transparent url(../images/social.png) no-repeat -32px -31px;
+}
+div.links ul.social li a.facebook {
+    
+    background: transparent url(../images/social.png) no-repeat -62px -1px;
+}
+div.links ul.social li a.facebook:hover {
+    
+    background: transparent url(../images/social.png) no-repeat -62px -31px;
+}
